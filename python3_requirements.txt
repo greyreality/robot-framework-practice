@@ -1,3 +1,5 @@
-# Install on virtual env by command
-# pip install -r resources/python3_requirements.txt
+
+# pip uninstall -y -r python3_requirements.txt
 robotframework
+robotframework-seleniumlibrary
+pyyaml
