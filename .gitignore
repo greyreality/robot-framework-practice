@@ -1,0 +1,11 @@
+*.pyc
+
+# OS metadata
+.DS_Store
+
+# Idea IDE
+*.iml
+.idea
+
+# Results and reports
+*.log

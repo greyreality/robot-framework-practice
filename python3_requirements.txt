@@ -1,0 +1,3 @@
+# Install on virtual env by command
+# pip install -r resources/python3_requirements.txt
+robotframework
