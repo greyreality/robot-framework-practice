@@ -12,7 +12,11 @@ As a user I want to login succesfully
     [Documentation]  This test case verifies that user is able to successfully Login
     [Tags]  Smoke
     Input Text  ${username_field}  ${user}
+    Click Element  ${login_btn}
+
+    Wait Until Element Is Visible  ${password_field}
     Input Password  ${password_field}  ${password}
     Click Element  ${login_btn}
-    Wait Until Element Is Visible  ${page_title}  timeout=10
-    Element Text Should Be   ${page_title}  Dashboard
+
+    Wait Until Element Is Visible  ${nav}
+    Element Text Should Be   ${nav}  Главная

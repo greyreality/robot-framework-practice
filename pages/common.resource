@@ -5,4 +5,4 @@ Resource           ../resources/import.robot
 
 [TestSetup] Open Website in Chrome Browser
   Open Browser  ${web_url}  Chrome
-  Wait Until Element Is Visible  ${username_field}  timeout=5
+  Wait Until Element Is Visible  ${login_btn}  timeout=5
