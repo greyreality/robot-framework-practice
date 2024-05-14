@@ -1,4 +1,4 @@
 run_on_failure: Capture Page Screenshot
-web_url: https://opensource-demo.orangehrmlive.com/
-user: Admin
-password: admin123
+web_url: https://id.atlassian.com/login
+user: mail.for.testbase@gmail.com
+password: 135onk086
